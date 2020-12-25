@@ -1,0 +1,15 @@
+{% extends "bootstrap/base.html" %}
+{% block styles %}
+{{ super() }}
+<link rel="stylesheet" href="emilia/static/styles.css">
+{% endblock %}
+{% block title %}Default{% endblock %}
+
+{% block content %}
+<div class = "container">
+    <div class="page-content">
+        {% block page_content %}{% endblock %}
+    </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Birb Generator!{% endblock %}
+{% block page_content %}
+        <h1>
+            Emilia's Birb Generator!
+        </h1>
+
+        <a href={{ birb }} target="_blank"><img src= {{ birb }} alt = "birb"></a>
+        <br>
+        <button onClick="history.go(0);">Get another birb!</button>
+        <br>
+        <h3>
+            Sourced from: <a href="https://reddit.com{{ post_url }}" target="_blank">'{{ post_title }}' in /r/{{ post_subreddit }} by /u/{{ post_author }}</a>
+        </h3>
+        <br>
+        <h5>Coded poorly, but with love, by <a href="https://github.com/NateWebber">Nate Webber.</a></h5>
+        <h5>Site Version 1.0. Modified 10/18/20.</h5>
+        
+{% endblock %}
+
