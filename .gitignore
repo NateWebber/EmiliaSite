@@ -1,4 +1,5 @@
-
+venv/
+__pycache__/
 venv/Lib/site-packages/__pycache__/easy_install.cpython-38.pyc
 venv/Lib/site-packages/__pycache__/six.cpython-38.pyc
 venv/Lib/site-packages/__pycache__/update_checker.cpython-38.pyc
